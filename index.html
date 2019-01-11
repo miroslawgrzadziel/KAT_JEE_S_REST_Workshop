@@ -6,5 +6,23 @@
 </head>
 <body>
 
+<!--form#bookForm>input[name=isbn]+input[name=title]+input[name=author]+input[name=publisher]+input[name=type] //zapis metodą emmet-->
+
+<form action="" id="bookForm">
+    <input type="text" name="isbn" placeholder="isbn">
+    <input type="text" name="title" placeholder="title">
+    <input type="text" name="author" placeholder="author">
+    <input type="text" name="publisher" placeholder="publisher">
+    <input type="text" name="type" placeholder="type">
+    <input type="submit" value="Dodaj">
+</form>
+
+<ul id="bookList"></ul>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>
